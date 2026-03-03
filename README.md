@@ -1,34 +1,53 @@
-# CarCollection
+# 🚗 CarMarketApp
 
-A UIKit car marketplace demo app built for portfolio use and further product development.
+CarMarketApp is a UIKit-based car marketplace application.
 
-## Stack
-- UIKit
-- SnapKit
-- MVVM
-- Programmatic navigation and UI
-- Mock repositories with UserDefaults-backed auth and favorites
+This project simulates a real-world marketplace flow: browsing cars, filtering results, viewing detailed information, saving favorites, and handling basic authentication logic.
 
-## Features
-- Sign in with email and password
-- Home feed with search and filters
-- Favorites flow
-- Car detail screen
-- Profile screen with persisted session state
+⸻
 
-## Project Structure
-- `CarCollection/App`: app startup and dependency wiring
-- `CarCollection/Features`: feature screens and view models
-- `CarCollection/Data/Repositories`: data access and local persistence
-- `CarCollection/Core/Model`: app models and mock data
-- `CarCollection/UI`: shared UI components and theme
+✨ Features
 
-## Notes
-- Apple sign-in is not implemented yet.
-- Data is mocked locally for now.
-- The project is structured to allow replacing mock repositories with a backend later.
+🚘 Main Screen
+	•	Displays a list of cars
+	•	Search by brand, model, and location
+	•	Responsive collection layout
+	•	Integrated favorites toggle
 
-## Run
-1. Open `/Users/vahidismylv/Documents/CarCollection/CarCollection.xcodeproj` in Xcode.
-2. Select the `CarCollection` scheme.
-3. Run on an iPhone simulator.
+🔎 Filters
+	•	Filter by:
+	•	Price range
+	•	Year range
+	•	Mileage
+	•	Fuel type
+	•	Transmission
+	•	Body type
+	•	Filter state persists while navigating back and forth
+	•	Filters and search work independently
+
+📄 Car Detail
+	•	Image gallery
+	•	Detailed specifications:
+	•	Engine
+	•	Power (HP / kW)
+	•	Origin
+	•	Mileage
+	•	Fuel consumption
+	•	Seats
+	•	Doors
+	•	Color
+	•	Seller section
+	•	Call action button
+	•	Favorite toggle synced with Main screen
+
+❤️ Favorites
+	•	Saved cars persist locally
+	•	Favorite state synchronized across screens
+	•	Uses repository abstraction for storage
+
+👤 Profile & Authentication
+	•	Basic login flow (email + password validation)
+	•	Email format validation
+	•	Password length validation
+	•	Local session persistence
+
