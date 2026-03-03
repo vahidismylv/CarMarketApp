@@ -51,6 +51,9 @@ This project simulates a real-world marketplace flow: browsing cars, filtering r
 - Local session persistence
 
 <img width="363" height="751" alt="Снимок экрана 2026-03-02 в 20 47 08" src="https://github.com/user-attachments/assets/360ba7c1-df9c-4c74-bc47-729bac4429a6" />
+<img width="367" height="753" alt="Снимок экрана 2026-03-03 в 17 27 09" src="https://github.com/user-attachments/assets/fad05448-10cd-464b-b6c2-843e2a3e98e7" />
+<img width="369" height="755" alt="Снимок экрана 2026-03-03 в 17 27 23" src="https://github.com/user-attachments/assets/8f2679fa-6ea8-4470-98fc-ac87c9dd00a0" />
+<img width="368" height="753" alt="Снимок экрана 2026-03-03 в 17 27 38" src="https://github.com/user-attachments/assets/ef8c6377-0548-4275-8f06-8120021954be" />
 <img width="380" height="765" alt="Снимок экрана 2026-03-02 в 20 47 00" src="https://github.com/user-attachments/assets/01d33252-e774-4f1c-a465-5c4a1a86e7aa" />
 <img width="370" height="754" alt="Снимок экрана 2026-03-02 в 20 47 47" src="https://github.com/user-attachments/assets/e4935069-18aa-49d6-8f5c-8b0cbbff4844" />
 <img width="378" height="751" alt="Снимок экрана 2026-03-02 в 20 47 55" src="https://github.com/user-attachments/assets/efcbee11-119c-462b-ba0a-bd567452e03b" />
